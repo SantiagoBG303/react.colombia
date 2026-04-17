@@ -1,12 +1,14 @@
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router'; 
-import Home from './Home'
-import Usuario from './Usuario/main'
-import Equipo from './Equipo'
-import Informativa from './Informativa'
-import Original from './Original'
-import Favoritos from './Favoritos'
-import './App.css'
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router';
 
+
+import Informativa from './informativa'
+import Original from './original'
+import Usuario from './usuario'
+import Home from './home'
+import Favoritos from './favoritos'
+import Equipo from './equipo';
+
+import './App.css'
 
 function App() {
 
